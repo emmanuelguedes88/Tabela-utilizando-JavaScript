@@ -14,9 +14,9 @@ const createTable = (number, multiplicatorNumber) => {
     multiplicationTable.innerHTML = "";
 
     for (i = 1; i <= multiplicatorNumber; i++) {
-        const result = number * 1;
+        const result = number * i;
 
-        const template = `<div class= "row">
+const template = `<div class= "row">
         <div class = "operation">${number} x ${i} = </div>
         <div class = "result">${result}</div>
         </div>`;
